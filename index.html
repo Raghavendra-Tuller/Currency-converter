@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>
+        <i class="fa-solid fa-money-bill-transfer"></i>
+        Currency Converter
+    </h1>
+
+    <form>
+
+        <!-- Amount -->
+
+        <div class="amount">
+
+            <label>Amount</label>
+
+            <input
+                type="number"
+                class="amount-input"
+                value="1"
+                min="1"
+                placeholder="Enter Amount">
+
+        </div>
+
+        <!-- Currency Selection -->
+
+        <div class="dropdown">
+
+            <!-- FROM -->
+
+            <div class="currency-box from">
+
+                <label>From</label>
+
+                <div class="select-container">
+
+                    <img
+                        src="https://flagsapi.com/US/flat/64.png"
+                        alt="flag">
+
+                    <select name="from"></select>
+
+                </div>
+
+            </div>
+
+            <!-- Swap Button -->
+
+            <div class="swap">
+
+                <i class="fa-solid fa-right-left"></i>
+
+            </div>
+
+            <!-- TO -->
+
+            <div class="currency-box to">
+
+                <label>To</label>
+
+                <div class="select-container">
+
+                    <img
+                        src="https://flagsapi.com/IN/flat/64.png"
+                        alt="flag">
+
+                    <select name="to"></select>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Result -->
+
+        <div class="result-box">
+
+            <div class="msg">
+                1 USD = 86.45 INR
+            </div>
+
+            <button
+                type="button"
+                class="copy-btn">
+
+                <i class="fa-regular fa-copy"></i>
+
+                Copy Result
+
+            </button>
+
+        </div>
+
+        <!-- Convert -->
+
+        <button class="convert-btn">
+
+            <i class="fa-solid fa-rotate"></i>
+
+            Get Exchange Rate
+
+        </button>
+
+    </form>
+
+    <!-- Loading -->
+
+    <div class="loading">
+
+        <i class="fa-solid fa-spinner fa-spin"></i>
+
+        Fetching Latest Exchange Rate...
+
+    </div>
+
+    <!-- History -->
+
+    <div class="history">
+
+        <h3>
+
+            <i class="fa-solid fa-clock-rotate-left"></i>
+
+            Recent Conversions
+
+        </h3>
+
+        <ul class="history-list">
+
+        </ul>
+
+    </div>
+
+</div>
+
+<script src="codes.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
