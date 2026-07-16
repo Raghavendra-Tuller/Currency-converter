@@ -1,13 +1,13 @@
-# 💱 Currency Converter
+# Currency Converter
 
 A responsive currency converter web app built using **HTML, CSS, and JavaScript**.  
 This project uses an exchange rate API to fetch real-time currency values and perform conversions.
 
-## 🚀 Live Demo
+##  Live Demo
 
 https://currency-converter-psi-umber.vercel.app/
 
-## ✨ Features
+##  Features
 
 - Real-time currency conversion
 - API integration using Fetch API
@@ -17,8 +17,7 @@ https://currency-converter-psi-umber.vercel.app/
 - Conversion history using LocalStorage
 - Responsive design
 
-## 🛠️ Technologies Used
-
+##  Technologies Used
 - HTML5
 - CSS3
 - JavaScript
@@ -27,7 +26,7 @@ https://currency-converter-psi-umber.vercel.app/
 - LocalStorage
 - Vercel
 
-## 📚 Learning Outcome
+##  Learning Outcome
 
 Built this project to understand API integration in JavaScript, including fetching data, handling JSON responses, async/await, and updating the UI dynamically.
 
