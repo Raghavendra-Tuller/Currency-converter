@@ -30,8 +30,6 @@ https://currency-converter-psi-umber.vercel.app/
 
 Built this project to understand API integration in JavaScript, including fetching data, handling JSON responses, async/await, and updating the UI dynamically.
 
-## 👨‍💻 Author
-
 **Raghavendra Tuller**
 
 GitHub: https://github.com/Raghavendra-Tuller
